@@ -45,11 +45,11 @@
         <!--Falling Snow-->
         <scene sceneID="fJc-1b-ePM">
             <objects>
-                <viewController id="REw-Cy-WvZ" sceneMemberID="viewController">
+                <viewController id="REw-Cy-WvZ" customClass="FallingSnowViewController" customModule="BlockMeetsGravity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YCk-cU-HX5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Falling Snow" id="Wo6-FL-muh"/>
                 </viewController>
@@ -63,12 +63,13 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="S7D-v5-fbz" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="qzB-5W-mN4">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Efk-U9-gDU"/>
-                        <segue destination="REw-Cy-WvZ" kind="relationship" relationship="viewControllers" id="drz-vx-paQ"/>
+                        <segue destination="REw-Cy-WvZ" kind="relationship" relationship="viewControllers" id="BxE-lU-bT0"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v2L-Bg-WEV" userLabel="First Responder" sceneMemberID="firstResponder"/>
