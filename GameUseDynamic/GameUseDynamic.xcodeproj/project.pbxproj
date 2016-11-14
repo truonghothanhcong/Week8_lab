@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43DC5001DDA2AB600BB4008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DC4FF1DDA2AB600BB4008 /* AppDelegate.swift */; };
+		F43DC5051DDA2AB600BB4008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43DC5031DDA2AB600BB4008 /* Main.storyboard */; };
+		F43DC5071DDA2AB600BB4008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43DC5061DDA2AB600BB4008 /* Assets.xcassets */; };
+		F43DC50A1DDA2AB600BB4008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43DC5081DDA2AB600BB4008 /* LaunchScreen.storyboard */; };
+		F43DC5151DDA2B5A00BB4008 /* SpaceshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DC5131DDA2B5A00BB4008 /* SpaceshipsViewController.swift */; };
+		F43DC5161DDA2B5A00BB4008 /* SpaceshipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43DC5141DDA2B5A00BB4008 /* SpaceshipsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F43DC4FC1DDA2AB600BB4008 /* GameUseDynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameUseDynamic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43DC4FF1DDA2AB600BB4008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F43DC5041DDA2AB600BB4008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F43DC5061DDA2AB600BB4008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F43DC5091DDA2AB600BB4008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F43DC50B1DDA2AB600BB4008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43DC5131DDA2B5A00BB4008 /* SpaceshipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipsViewController.swift; sourceTree = "<group>"; };
+		F43DC5141DDA2B5A00BB4008 /* SpaceshipsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpaceshipsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F43DC4F91DDA2AB600BB4008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F43DC4F31DDA2AB600BB4008 = {
+			isa = PBXGroup;
+			children = (
+				F43DC4FE1DDA2AB600BB4008 /* GameUseDynamic */,
+				F43DC4FD1DDA2AB600BB4008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F43DC4FD1DDA2AB600BB4008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F43DC4FC1DDA2AB600BB4008 /* GameUseDynamic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F43DC4FE1DDA2AB600BB4008 /* GameUseDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				F43DC4FF1DDA2AB600BB4008 /* AppDelegate.swift */,
+				F43DC5031DDA2AB600BB4008 /* Main.storyboard */,
+				F43DC5061DDA2AB600BB4008 /* Assets.xcassets */,
+				F43DC5081DDA2AB600BB4008 /* LaunchScreen.storyboard */,
+				F43DC50B1DDA2AB600BB4008 /* Info.plist */,
+				F43DC5131DDA2B5A00BB4008 /* SpaceshipsViewController.swift */,
+				F43DC5141DDA2B5A00BB4008 /* SpaceshipsViewController.xib */,
+			);
+			path = GameUseDynamic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F43DC4FB1DDA2AB600BB4008 /* GameUseDynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43DC50E1DDA2AB600BB4008 /* Build configuration list for PBXNativeTarget "GameUseDynamic" */;
+			buildPhases = (
+				F43DC4F81DDA2AB600BB4008 /* Sources */,
+				F43DC4F91DDA2AB600BB4008 /* Frameworks */,
+				F43DC4FA1DDA2AB600BB4008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameUseDynamic;
+			productName = GameUseDynamic;
+			productReference = F43DC4FC1DDA2AB600BB4008 /* GameUseDynamic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F43DC4F41DDA2AB600BB4008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = congtruong;
+				TargetAttributes = {
+					F43DC4FB1DDA2AB600BB4008 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5TJXL29536;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F43DC4F71DDA2AB600BB4008 /* Build configuration list for PBXProject "GameUseDynamic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F43DC4F31DDA2AB600BB4008;
+			productRefGroup = F43DC4FD1DDA2AB600BB4008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F43DC4FB1DDA2AB600BB4008 /* GameUseDynamic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F43DC4FA1DDA2AB600BB4008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43DC50A1DDA2AB600BB4008 /* LaunchScreen.storyboard in Resources */,
+				F43DC5071DDA2AB600BB4008 /* Assets.xcassets in Resources */,
+				F43DC5051DDA2AB600BB4008 /* Main.storyboard in Resources */,
+				F43DC5161DDA2B5A00BB4008 /* SpaceshipsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F43DC4F81DDA2AB600BB4008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43DC5001DDA2AB600BB4008 /* AppDelegate.swift in Sources */,
+				F43DC5151DDA2B5A00BB4008 /* SpaceshipsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F43DC5031DDA2AB600BB4008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43DC5041DDA2AB600BB4008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F43DC5081DDA2AB600BB4008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43DC5091DDA2AB600BB4008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F43DC50C1DDA2AB600BB4008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F43DC50D1DDA2AB600BB4008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F43DC50F1DDA2AB600BB4008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TJXL29536;
+				INFOPLIST_FILE = GameUseDynamic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = congtruong.GameUseDynamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F43DC5101DDA2AB600BB4008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TJXL29536;
+				INFOPLIST_FILE = GameUseDynamic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = congtruong.GameUseDynamic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F43DC4F71DDA2AB600BB4008 /* Build configuration list for PBXProject "GameUseDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43DC50C1DDA2AB600BB4008 /* Debug */,
+				F43DC50D1DDA2AB600BB4008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43DC50E1DDA2AB600BB4008 /* Build configuration list for PBXNativeTarget "GameUseDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43DC50F1DDA2AB600BB4008 /* Debug */,
+				F43DC5101DDA2AB600BB4008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F43DC4F41DDA2AB600BB4008 /* Project object */;
+}
