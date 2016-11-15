@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F432B0FE1DDA9F870023A002 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F432B0FD1DDA9F870023A002 /* StartViewController.swift */; };
 		F43DC5001DDA2AB600BB4008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DC4FF1DDA2AB600BB4008 /* AppDelegate.swift */; };
 		F43DC5051DDA2AB600BB4008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43DC5031DDA2AB600BB4008 /* Main.storyboard */; };
 		F43DC5071DDA2AB600BB4008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43DC5061DDA2AB600BB4008 /* Assets.xcassets */; };
 		F43DC50A1DDA2AB600BB4008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43DC5081DDA2AB600BB4008 /* LaunchScreen.storyboard */; };
 		F43DC5151DDA2B5A00BB4008 /* SpaceshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DC5131DDA2B5A00BB4008 /* SpaceshipsViewController.swift */; };
 		F43DC5161DDA2B5A00BB4008 /* SpaceshipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43DC5141DDA2B5A00BB4008 /* SpaceshipsViewController.xib */; };
+		F4FC8CDE1DDABBE100B450FF /* FlappyBirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC8CDD1DDABBE100B450FF /* FlappyBirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F432B0FD1DDA9F870023A002 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		F43DC4FC1DDA2AB600BB4008 /* GameUseDynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameUseDynamic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43DC4FF1DDA2AB600BB4008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F43DC5041DDA2AB600BB4008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		F43DC50B1DDA2AB600BB4008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F43DC5131DDA2B5A00BB4008 /* SpaceshipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipsViewController.swift; sourceTree = "<group>"; };
 		F43DC5141DDA2B5A00BB4008 /* SpaceshipsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpaceshipsViewController.xib; sourceTree = "<group>"; };
+		F4FC8CDD1DDABBE100B450FF /* FlappyBirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlappyBirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F43DC50B1DDA2AB600BB4008 /* Info.plist */,
 				F43DC5131DDA2B5A00BB4008 /* SpaceshipsViewController.swift */,
 				F43DC5141DDA2B5A00BB4008 /* SpaceshipsViewController.xib */,
+				F432B0FD1DDA9F870023A002 /* StartViewController.swift */,
+				F4FC8CDD1DDABBE100B450FF /* FlappyBirdViewController.swift */,
 			);
 			path = GameUseDynamic;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43DC5001DDA2AB600BB4008 /* AppDelegate.swift in Sources */,
+				F4FC8CDE1DDABBE100B450FF /* FlappyBirdViewController.swift in Sources */,
 				F43DC5151DDA2B5A00BB4008 /* SpaceshipsViewController.swift in Sources */,
+				F432B0FE1DDA9F870023A002 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +314,7 @@
 				F43DC5101DDA2AB600BB4008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
